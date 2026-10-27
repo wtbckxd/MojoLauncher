@@ -14,8 +14,11 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name='PojavLauncher'
-include ':jre_lwjgl3glfw'
-include ':app_pojavlauncher'
+rootProject.name='MojoLauncher'
+include ':app_mojo'
 
 include ':forge_installer'
+include ':NoBlocklist'
+include ':glfw:jni_bindings'
+include ':mojoexec:jni_bindings'
+include ':sdl:jni_bindings'
